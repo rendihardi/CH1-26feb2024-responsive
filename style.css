@@ -14,3 +14,18 @@ h1 {
     color: red;
   }
 }
+
+@media (max-width: 600px) {
+  .card {
+    display: block;
+    width: 100%;
+    text-align: justify;
+  }
+}
+.left-section {
+  float: left;
+}
+
+.right-section {
+  float: right;
+}
